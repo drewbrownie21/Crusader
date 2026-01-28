@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import { Countdown } from './components/Countdown'
 
 function App() {
 
   return (
     <main>
-      Crusader count down!
+      Crusader count down! <br />
+      <Countdown />
     </main>
   )
 }
